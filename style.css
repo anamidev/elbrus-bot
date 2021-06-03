@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.wr {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  /* background: red; */
+}
+
+.bot {
+  width: 320px;
+  padding: 16px;
+  /* background: yellow; */
+}
+
+.header {
+  color: #66eefb;
+  background: #4520ab;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.bot__top {
+  color: #4520ab;
+  font-family: monospace;
+  margin-bottom: 24px;
+}
+
+.bot__top p:first-child {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.bot__form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bot__form form input {
+  margin-bottom: 16px;
+  height: 40px;
+  background: #eee;
+  padding: 0 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.bot__form form input:focus {
+  outline: none;
+}
+
+.bot__form form input::placeholder {
+  color: #4520ab;
+}
+
+.bot__form form button {
+  background-color: #faba59;
+  color: #4520ab;
+  text-transform: uppercase;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.bot__form form button:hover {
+  background-color: #ffd79b;
+}
